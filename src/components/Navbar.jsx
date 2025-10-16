@@ -10,8 +10,8 @@ function Navbar() {
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
+                <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div className="navbar-nav">
                         <NavLink className="nav-link" to="/">Início</NavLink>
                         <NavLink className="nav-link" to="/legislacao">Legislação</NavLink>
                         <NavLink className="nav-link" to="/ia">Ia</NavLink>
