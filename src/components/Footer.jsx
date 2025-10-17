@@ -8,13 +8,13 @@ const getAno = () => {
   return ano;
 }
 
-function Footer() {
+const Footer = () => {
   const ano = getAno();
   return (
     <>
         <div>
           <footer>
-            <h2 className='bg-info fs-2 text-center mt-2 p-2'>&copy; {ano} Ética, todos os direitos reservados.</h2>
+            <h2 className='bg-info text-center mt-2  position-absolute start-0 end-0'>&copy; {ano} Ética, todos os direitos reservados.</h2>
           </footer>
         </div>
     </>

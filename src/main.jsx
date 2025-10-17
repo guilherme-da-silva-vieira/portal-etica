@@ -4,6 +4,9 @@ import Legislacao from './pages/Legislacao.jsx'
 import IA from './pages/IA.jsx'
 import Sobre from './pages/Sobre.jsx'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css"
+import "./styles/text-justify.css"
+
 const router = createBrowserRouter([
   {path: "/", element: <App/>},
   {path: "/sobre", element: <Sobre/>},
